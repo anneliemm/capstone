@@ -10,10 +10,7 @@ body {
 a {
   text-decoration: none;
 }
-main {
-  padding-top: 4rem;
-  z-index: 5;
-}
+
 h1 {
   font-family: "Quicksand", sans-serif;
   font-size: 3rem;
@@ -102,7 +99,7 @@ header .mobile {
 .banner .image-container1 img {
   width: 100%;
   height: auto;
-  display: block;
+  padding-top: 4rem;
 }
 .learn {
   margin-left: 1.5rem;
