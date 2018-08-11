@@ -4,25 +4,9 @@ body {
   font-size: 16px;
   font-family: "Quicksand", sans-serif;
   background-color: white;
-  margin: 0 auto;
-  line-height: 1.4;
 }
 a {
   text-decoration: none;
-}
-
-h1 {
-  font-family: "Quicksand", sans-serif;
-  font-size: 3rem;
-  font-weight: bold;
-}
-h2 {
-  font-family: "Quicksand", sans-serif;
-  font-size: 1.5rem;
-}
-h3 {
-  font-family: "Quicksand", sans-serif;
-  font-size: 1rem;
 }
 
 /* Header */
@@ -44,7 +28,7 @@ header .logo {
   letter-spacing: .25rem;
 }
 header .logo img {
-  height: 2rem;
+  height: 3rem;
   padding-right: 1rem;
 }
 nav li {
@@ -57,11 +41,11 @@ header nav {
 header .bold {
   font-weight: bold;
 }
-header .mobile {
+#mobile {
   display: none;
 }
 @media only screen and (max-width: 560px) {
-  header .desktop {
+  header #desktop {
     display: none;
   }
   .hide {
@@ -70,17 +54,17 @@ header .mobile {
   header span {
     display: none;
   }
-  header .mobile {
+  header #mobile {
     display: block;
     width: 100%;
   }
-  header .mobile ul {
+  header #mobile ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
   }
-  header .mobile li {
+  header #mobile li {
     padding: 0;
   }
 }
@@ -90,6 +74,7 @@ header .mobile {
   display: flex;
   align-items: center;
   background-color: lightgrey;
+  line-height: 1.4;
 }
 .banner .image-container1 {
   width: 60%;
@@ -101,27 +86,41 @@ header .mobile {
   height: auto;
   padding-top: 4rem;
 }
-.learn {
+.banner1 {
   margin-left: 1.5rem;
   margin-right: 5rem;
   width: 40%;
   text-align: center;
 }
-.learn h1, .learn h2 {
-  margin: 1rem;
-}
-.learn .button {
-  color: black;
+.banner1 .button {
   text-align: center;
-  background-color: lightblue;
+  background-color: white;
   margin: 1rem;
 }
-
+.banner1 .button h3 {
+  font-size: 2rem;
+  color: black;
+}
+.banner h1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+.banner h2 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+.banner h3 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+}
 
 /* Second banner */
 .information {
   display: flex;
-  background-color: lightblue;
+  background-color: white;
 }
 .information .image-container2 {
   width: 60%;
@@ -183,7 +182,46 @@ header .mobile {
   display: none;
 }
 
-
 /* Third banner */
+.learning {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 4rem;
+  background-color: lightgrey;
+}
+.learning h2 {
+  font-weight: bold;
+  padding-bottom: 1rem;
+  font-size: 2.5rem;
+}
+.learning .top,
+.learning .bottom {
+  display: flex;
+}
+.learning .course {
+  width: 33.33%;
+  padding: 1rem;
+}
+.learning .course img {
+  width: 100%;
+  height: auto;
+}
+.learning .coursename {
+  background-color: white;
+  height: 9rem;
+  padding: 1rem;
+}
+.learning .coursename h3 {
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.learning .coursename p {
+  line-height: 1.4;
+  padding: 0.5rem 0;
+}
 /* Fourth banner */
+
 /* Footer */
