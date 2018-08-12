@@ -31,9 +31,13 @@ header .logo img {
   height: 3rem;
   padding-right: 1rem;
 }
+header .logo span {
+  font-size: 1.75rem;
+}
 nav li {
   display: inline-block;
   padding: 1rem;
+  font-size: 1.25rem;
 }
 header nav {
   padding-right: 1.5rem;
@@ -222,6 +226,59 @@ header .bold {
   line-height: 1.4;
   padding: 0.5rem 0;
 }
+
 /* Fourth banner */
+.thesis h2 {
+  font-weight: bold;
+  padding-top: 1rem;
+  margin: 1rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.information .video-container video {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.information .video-container {
+  width: 60%;
+  padding: 2rem;
+}
+.thesis .programme .box {
+  border-bottom: none;
+}
+.thesis h3 {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+.thesis p {
+  line-height: 1.4;
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+.thesis .programme .box p {
+  padding: 0;
+}
 
 /* Footer */
+footer {
+  display: flex;
+  align-items:;
+  width: 100%;
+  height: 8rem;
+  background-color: lightgrey;
+  border-top: 1px solid black;
+}
+footer .footer-bottom {
+  display: flex;
+  flex-grow: 1;
+  padding-left: 2rem;
+  padding-top: 1.5rem;
+}
+.termsprivacy {
+  padding-top: 1.5rem;
+  padding-right: 1rem;
+}
+.termsprivacy span {
+  padding: 1rem;
+}
