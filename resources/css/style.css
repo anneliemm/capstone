@@ -150,9 +150,7 @@ header .bold {
   line-height: 1.4;
   font-size: 1rem;
 }
-#mobile {
-  display: none;
-}
+
 
 /* Third banner */
 .learning {
@@ -249,6 +247,11 @@ footer .footer-bottom {
 .termsprivacy span {
   padding: 1rem;
 }
+@media only screen and (min-width: 561px) {
+  #mobile {
+    display: none;
+  }
+}
 @media only screen and (max-width: 560px) {
 /*Header*/
   header #desktop {
@@ -290,7 +293,10 @@ footer .footer-bottom {
     margin: 0 auto;
   }
   .banner1 .button h3 {
-    font-size: 1rem;
+    font-size: 1.5rem;
+  }
+  .banner1 .button {
+    margin: 2rem;
   }
   .banner h1 {
     font-size: 1.5rem;
@@ -298,6 +304,27 @@ footer .footer-bottom {
   }
   .banner h2 {
     font-size: 1rem;
+  }
+/*Second banner*/
+  .information .programme {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .information .box {
+    display: flex;
+    flex-direction: column;
+    border-bottom: none;
+  }
+  .information .image-container3 {
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+  }
+  .information .text {
+    width: 100%;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
   }
 /*Third banner*/
   #desktop {
@@ -312,7 +339,8 @@ footer .footer-bottom {
   }
   .learning h2 {
     font-size: 2rem;
-    padding: 0.5rem 0;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
   }
   .learning .top, .bottom {
     display: flex;
@@ -333,6 +361,9 @@ footer .footer-bottom {
     font-size: 1.5rem;
   }
 /*Fourth banner */
+  .thesis {
+    margin-top: 2rem;
+  }
   .thesis h2 {
     font-size: 2rem;
   }
