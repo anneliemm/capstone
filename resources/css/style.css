@@ -51,6 +51,7 @@ header .bold {
   font-weight: bold;
   color: #32639A;
 }
+
 /* First banner */
 .banner {
   display: flex;
@@ -172,7 +173,9 @@ header .bold {
   color: #6696CD;
   text-decoration: underline;
 }
-
+.information .text h4:hover {
+  color: #E5EDF6;
+}
 
 /* Third banner */
 .learning {
@@ -218,6 +221,7 @@ header .bold {
   box-shadow: 2px 2px 5px 2px #32639A;
   transition: all 400ms linear 10ms;
 }
+
 /* Fourth banner */
 .thesis h2 {
   font-weight: bold;
@@ -270,11 +274,13 @@ footer .footer-bottom {
 .termsprivacy span {
   padding: 0.5rem;
 }
+
 @media only screen and (min-width: 481px) {
   #mobile {
     display: none;
   }
 }
+
 @media only screen and (max-width: 480px) {
 /*Header*/
   header #desktop {
@@ -299,6 +305,7 @@ footer .footer-bottom {
   header #mobile li {
     padding: 0;
   }
+
   /*First banner*/
   .banner {
     flex-direction: column;
@@ -328,6 +335,7 @@ footer .footer-bottom {
   .banner h2 {
     font-size: 1rem;
   }
+
 /*Second banner*/
   .information .content {
     display: flex;
@@ -349,6 +357,7 @@ footer .footer-bottom {
     padding-top: 1rem;
     margin-bottom: 1rem;
   }
+
 /*Third banner*/
   #desktop {
     display: none;
@@ -383,6 +392,7 @@ footer .footer-bottom {
     padding: 0.5rem 0;
     font-size: 1.5rem;
   }
+
 /*Fourth banner */
   .thesis {
     margin-top: 2rem;
@@ -393,6 +403,7 @@ footer .footer-bottom {
   .information .video-container {
     width: 100%;
   }
+
 /*Footer*/
   footer {
     height: 4rem;
