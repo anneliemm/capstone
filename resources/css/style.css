@@ -41,6 +41,9 @@ nav li {
   font-size: 1.25rem;
   font-weight: bold;
 }
+header a:hover {
+  color: #32639A
+}
 header nav {
   padding-right: 1.5rem;
 }
@@ -75,6 +78,11 @@ header .bold {
   text-align: center;
   background-color: #32639A;
   margin: 1rem;
+  border-radius: 6px;
+}
+.banner1 .button:hover {
+  background-color: #6696CD;
+  transition: all 400ms linear 10ms;
 }
 .banner1 .button h3 {
   font-size: 2rem;
@@ -102,7 +110,6 @@ header .bold {
   width: 60%;
   overflow: hidden;
   padding: 2rem;
-  border-right: 1px solid #142941;
 }
 .information .image-container2 img {
   width: 100%;
@@ -132,7 +139,10 @@ header .bold {
   display: flex;
   align-items: center;
   padding: 1rem;
-  border-bottom: 1px solid #142941;
+}
+.information .box:hover {
+  background-color: #B2CAE6;
+  transition: all 400ms linear 10ms;
 }
 .information .image-container3 {
   width: 40%;
@@ -203,7 +213,10 @@ header .bold {
   line-height: 1.4;
   padding: 0.5rem 0;
 }
-
+.learning .course:hover {
+  box-shadow: 2px 2px 5px 2px #32639A;
+  transition: all 400ms linear 10ms;
+}
 /* Fourth banner */
 .thesis h2 {
   font-weight: bold;
@@ -311,7 +324,7 @@ footer .footer-bottom {
     margin: 2rem;
   }
   .banner h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
   }
   .banner h2 {
