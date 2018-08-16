@@ -2,8 +2,9 @@
 html,
 body {
   font-size: 16px;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   background-color: white;
+  color: #142941;
 }
 a {
   text-decoration: none;
@@ -18,7 +19,7 @@ header {
   z-index: 1;
   width: 100%;
   border-bottom: solid 1px black;
-  background-color: white;
+  background-color: #FFFFFF;
 }
 header .logo {
   display: flex;
@@ -38,18 +39,20 @@ nav li {
   display: inline-block;
   padding: 1rem;
   font-size: 1.25rem;
+  font-weight: bold;
 }
 header nav {
   padding-right: 1.5rem;
 }
 header .bold {
   font-weight: bold;
+  color: #32639A;
 }
 /* First banner */
 .banner {
   display: flex;
   align-items: center;
-  background-color: lightgrey;
+  background-color: #B2CAE6;
   line-height: 1.4;
 }
 .banner .image-container1 {
@@ -70,21 +73,22 @@ header .bold {
 }
 .banner1 .button {
   text-align: center;
-  background-color: white;
+  background-color: #32639A;
   margin: 1rem;
 }
 .banner1 .button h3 {
   font-size: 2rem;
-  color: black;
+  color: #FFFFFF;
+  font-weight: bold;
 }
 .banner h1 {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
   margin: 1rem;
 }
 .banner h2 {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   font-size: 1.5rem;
   margin: 1rem;
 }
@@ -92,13 +96,13 @@ header .bold {
 /* Second banner */
 .information {
   display: flex;
-  background-color: white;
+  background-color: #FFFFFF;
 }
 .information .image-container2 {
   width: 60%;
   overflow: hidden;
   padding: 2rem;
-  border-right: 1px solid black;
+  border-right: 1px solid #142941;
 }
 .information .image-container2 img {
   width: 100%;
@@ -116,6 +120,7 @@ header .bold {
 }
 .information .image-container2 h4 {
   padding: 2rem 0;
+  font-style: italic;
 }
 .information .programme {
   display: flex;
@@ -127,7 +132,7 @@ header .bold {
   display: flex;
   align-items: center;
   padding: 1rem;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #142941;
 }
 .information .image-container3 {
   width: 40%;
@@ -144,11 +149,17 @@ header .bold {
 }
 .information .text h3 {
   font-size: 1.5rem;
+  font-weight: bold;
 }
-.programme .text p {
+.information .text p {
   margin: 1rem 0;
   line-height: 1.4;
   font-size: 1rem;
+}
+.information .text h4 {
+  font-weight: bold;
+  color: #6696CD;
+  text-decoration: underline;
 }
 
 
@@ -159,7 +170,7 @@ header .bold {
   justify-content: center;
   align-items: center;
   padding: 2rem 4rem;
-  background-color: lightgrey;
+  background-color: #B2CAE6;
 }
 .learning h2 {
   font-weight: bold;
@@ -216,6 +227,7 @@ header .bold {
 .thesis h3 {
   font-size: 1.5rem;
   padding-top: 1rem;
+  font-weight: bold;
 }
 .thesis p {
   line-height: 1.4;
@@ -231,8 +243,8 @@ footer {
   display: flex;
   width: 100%;
   height: 8rem;
-  background-color: lightgrey;
-  border-top: 1px solid black;
+  background-color: #B2CAE6;
+  border-top: 1px solid #142941;
 }
 footer .footer-bottom {
   display: flex;
@@ -245,7 +257,7 @@ footer .footer-bottom {
   padding-right: 1rem;
 }
 .termsprivacy span {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 @media only screen and (min-width: 561px) {
   #mobile {
