@@ -26,7 +26,7 @@ header .logo {
   align-items: center;
   flex-grow: 1;
   padding-left: 1.5rem;
-  letter-spacing: .25rem;
+  letter-spacing: 0.25rem;
 }
 header .logo img {
   height: 3rem;
@@ -78,7 +78,7 @@ header .bold {
   text-align: center;
   background-color: #32639A;
   margin: 1rem;
-  border-radius: 6px;
+  border-radius: 10px;
 }
 .banner1 .button:hover {
   background-color: #6696CD;
@@ -129,7 +129,7 @@ header .bold {
   padding: 2rem 0;
   font-style: italic;
 }
-.information .programme {
+.information .content {
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -142,6 +142,7 @@ header .bold {
 }
 .information .box:hover {
   background-color: #B2CAE6;
+  box-shadow: 2px 2px 5px 2px #32639A;
   transition: all 400ms linear 10ms;
 }
 .information .image-container3 {
@@ -200,7 +201,7 @@ header .bold {
   height: auto;
 }
 .learning .coursename {
-  background-color: white;
+  background-color: #F0F4FA;
   height: 9rem;
   padding: 1rem;
 }
@@ -234,9 +235,6 @@ header .bold {
   width: 60%;
   padding: 2rem;
 }
-.thesis .programme .box {
-  border-bottom: none;
-}
 .thesis h3 {
   font-size: 1.5rem;
   padding-top: 1rem;
@@ -247,7 +245,7 @@ header .bold {
   font-size: 1rem;
   padding: 1rem 0;
 }
-.thesis .programme .box p {
+.thesis .content .box p {
   padding: 0;
 }
 
@@ -272,12 +270,12 @@ footer .footer-bottom {
 .termsprivacy span {
   padding: 0.5rem;
 }
-@media only screen and (min-width: 561px) {
+@media only screen and (min-width: 481px) {
   #mobile {
     display: none;
   }
 }
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 480px) {
 /*Header*/
   header #desktop {
     display: none;
@@ -331,7 +329,7 @@ footer .footer-bottom {
     font-size: 1rem;
   }
 /*Second banner*/
-  .information .programme {
+  .information .content {
     display: flex;
     flex-direction: column;
     width: 100%;
